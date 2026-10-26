@@ -2,7 +2,7 @@
 
 A responsive, web-based dashboard designed to visualize business performance through interactive charts. Built using HTML, CSS, JavaScript, and Chart.js, this project presents monthly revenue, expenses, profit, and expense distribution in a clean, professional interface.
 
-**🚀 [Visit the Business Analytics Dashboard](https://YOUR-NETLIFY-SITE.netlify.app)**
+**🚀 [Visit the Business Analytics Dashboard](https://revenuevisualizationdashboard.netlify.app/)**
 
 ## 📌 Project Overview
 
@@ -139,3 +139,5 @@ Interested in data analytics, business intelligence, and building data-driven ap
 📄 License
 
 This project is available for educational and personal learning purposes. If you plan to reuse or distribute it, consider adding an explicit open-source license to the repository.
+
+⭐ If you find this project useful, consider starring the repository!
