@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Business Analytics Dashboard</title>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Dashboard Header -->
+    <header class="dashboard-header">
+        <h1>Business Analytics Dashboard</h1>
+        <p>Revenue, Expenses &amp; Profit Overview</p>
+    </header>
+
+    <!-- Dashboard Charts -->
+    <main class="dashboard-grid">
+
+        <!-- Line Chart -->
+        <section class="chart-card">
+            <h2>Revenue, Expenses &amp; Profit</h2>
+
+            <div class="chart-wrapper">
+                <canvas id="myChart1"></canvas>
+            </div>
+        </section>
+
+        <!-- Bar Chart -->
+        <section class="chart-card">
+            <h2>Monthly Revenue</h2>
+
+            <div class="chart-wrapper">
+                <canvas id="myChart2"></canvas>
+            </div>
+        </section>
+
+        <!-- Pie Chart -->
+        <section class="chart-card">
+            <h2>Expense Distribution in June Month</h2>
+
+            <div class="chart-wrapper">
+                <canvas id="myChart3"></canvas>
+            </div>
+        </section>
+
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
